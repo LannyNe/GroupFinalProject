@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS, other stylesheet and scripts -->
-    <script src="./script.js"></script>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
     <title>Program Requirements</title>
@@ -42,7 +43,7 @@
         </div>
       </div>
       <img src="./graduation-e1521743186145-1440x400.jpg" alt="Broadcasting and Production Technology Graduation" class="img-fluid">
-      <nav class="navbar">
+      <nav class="navbar" id="vertNavBar">
       <ul class="navbar-nav">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
@@ -69,8 +70,8 @@
         </li>
       </ul>
       </nav>
-    <h1>Program Requirements</h1>
-    <div class="row">
+    <h1 class="programBorder">Program Requirements</h1>
+    <div class="row container-fluid">
       <div class="col-4">
         <h2>Course Name</h2>
         <p>ACA-115 - Success and Study Skills</p>
@@ -258,11 +259,12 @@
         </div>
       </div>
     </div>
-      <h2>Projected Semester Schedules:</h2>
+      <h2 id="sliding">Projected Semester Schedules:</h2>
+      <div id="scheduleSlide">
       <div class="container"> 
       <h3 class="alert alert-primary container-fluid">First Year, Fall Semester</h3>
       
-         <table class="table">
+         <table class="table table-striped">
           <thead>
              <tr>
                  <th>Course</th>
@@ -280,7 +282,7 @@
                      <td>1</td>
                      <td>F,S,S</td>
                  </tr>
-                 <tr>
+                  <tr>
                      <td><a href="https://clevelandcc.edu/course/introduction-broadcasting/">BPT-110 - Introduction to Broadcasting</td>
                          <td>3</td>
                      <td>0</td>
@@ -478,7 +480,11 @@
               </tr>
               
           </table>
-          
+              
+          <p class="alert alert warning">
+              Classes appearing in yellow can be taken in any semester.
+              </p>
+              </div>
       </div>
      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

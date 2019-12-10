@@ -1,1 +1,34 @@
-Placehold
+.nav-link{
+padding: 20px;    
+
+}
+
+#vertNavBar{
+    background-color:lightblue;
+    width:160px;
+    
+}
+
+#sliding{
+    padding:10px;
+    border: solid 2px;
+}
+
+#scheduleSlide{
+    padding:60px;
+    display:none;
+}
+
+#horizontalNavBar{
+    background-color:silver;
+    border:5px solid;
+}
+
+#applyHere{
+    background-color:gold;
+    color:black;
+}
+
+*{
+    font-family:sans-serif;
+}

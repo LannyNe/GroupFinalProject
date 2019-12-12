@@ -15,7 +15,15 @@ $("#sliding").click(function(){
     
 });   
     
+ $(".nav-link").click(function(){
+     $(this).css({"color": "violet"});
+ });
+    
+    
+ $("#applyHere").mouseenter(function(){
+    $(this).css('text-align','center');
+});
+    
 
     
-    
-});
+    });
